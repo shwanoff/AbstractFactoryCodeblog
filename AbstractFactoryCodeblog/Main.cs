@@ -16,6 +16,7 @@ namespace AbstractFactoryCodeblog
         Image carImage;
         Point carPosition;
         Car car;
+
         public Main()
         {
             InitializeComponent();
