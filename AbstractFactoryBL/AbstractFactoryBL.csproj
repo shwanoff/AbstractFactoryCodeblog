@@ -41,6 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseAbstractFactory\Client.cs" />
+    <Compile Include="BaseAbstractFactory\ConcreteFactory1.cs" />
+    <Compile Include="BaseAbstractFactory\ConcreteFactory2.cs" />
+    <Compile Include="BaseAbstractFactory\ConcreteProductA1.cs" />
+    <Compile Include="BaseAbstractFactory\ConcreteProductA2.cs" />
+    <Compile Include="BaseAbstractFactory\ConcreteProductB1.cs" />
+    <Compile Include="BaseAbstractFactory\ConcreteProductB2.cs" />
+    <Compile Include="BaseAbstractFactory\IAbstractFactory.cs" />
+    <Compile Include="BaseAbstractFactory\IAbstractProductA.cs" />
+    <Compile Include="BaseAbstractFactory\IAbstractProductB.cs" />
     <Compile Include="BaseImplementation\Body.cs" />
     <Compile Include="BaseImplementation\Car.cs" />
     <Compile Include="BaseImplementation\Engine.cs" />
@@ -49,7 +59,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="AbstractFactoryImplementation\" />
-    <Folder Include="BaseAbstractFactory\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
