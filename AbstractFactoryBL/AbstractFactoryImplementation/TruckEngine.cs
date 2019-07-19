@@ -2,16 +2,36 @@
 
 namespace AbstractFactoryBL.AbstractFactoryImplementation
 {
+	/// <summary>
+	/// Двигатель Камаза.
+	/// </summary>
 	public class TruckEngine : IEngine
 	{
+		/// <summary>
+		/// Максимально возможная скорость.
+		/// </summary>
 		public double MaxSpeed => 110;
 
+		/// <summary>
+		/// Наименование.
+		/// </summary>
 		public string Name => "Daimler OM 457LA";
 
+		/// <summary>
+		/// Стоимость.
+		/// </summary>
 		public decimal Price => 2000000;
 
+		/// <summary>
+		/// Вес.
+		/// </summary>
 		public double Weight => 1500;
 
+		/// <summary>
+		/// Вычислить расход топлива в час по скорости.
+		/// </summary>
+		/// <param name="speed"> Скорость движения. </param>
+		/// <returns> Количество потребляемых литров топлива за час. </returns>
 		public double GetConsumption(double speed)
 		{
 			if(speed < 0)

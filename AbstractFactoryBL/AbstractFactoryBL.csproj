@@ -41,19 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbstractFactoryImplementation\AutoBase.cs" />
-    <Compile Include="AbstractFactoryImplementation\Car.cs" />
+    <Compile Include="AbstractFactoryImplementation\Auto.cs" />
     <Compile Include="AbstractFactoryImplementation\CarBody.cs" />
     <Compile Include="AbstractFactoryImplementation\CarEngine.cs" />
     <Compile Include="AbstractFactoryImplementation\CarTank.cs" />
-    <Compile Include="AbstractFactoryImplementation\IAuto.cs" />
     <Compile Include="AbstractFactoryImplementation\IAutoFactory.cs" />
     <Compile Include="AbstractFactoryImplementation\CarFactory.cs" />
     <Compile Include="AbstractFactoryImplementation\IBody.cs" />
     <Compile Include="AbstractFactoryImplementation\IComponent.cs" />
     <Compile Include="AbstractFactoryImplementation\IEngine.cs" />
     <Compile Include="AbstractFactoryImplementation\ITank.cs" />
-    <Compile Include="AbstractFactoryImplementation\Truck.cs" />
     <Compile Include="AbstractFactoryImplementation\TruckBody.cs" />
     <Compile Include="AbstractFactoryImplementation\TruckEngine.cs" />
     <Compile Include="AbstractFactoryImplementation\TruckFactory.cs" />
